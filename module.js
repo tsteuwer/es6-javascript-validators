@@ -34,7 +34,7 @@ export function isNullOrUndefined(v) {
  * @param {String} s The variable to test.
  * @return {Boolean}
  */
-export function isString(s) {
+export function isStr(s) {
 	return typeof s === 'string';
 }
 
