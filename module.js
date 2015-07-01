@@ -125,12 +125,10 @@ export function validNum(n) {
 export function validObj(o) {
 	var i;
 
-	if (!isArr(o)) {
-		return false;
-	}
-
-	for (i in obj) {
-		return true;
+	if (isObj(o)) {
+		for (i in o) {
+			return true;
+		}
 	}
 
 	return false;
