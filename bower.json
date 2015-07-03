@@ -1,0 +1,27 @@
+{
+  "name": "es6-javascript-validators",
+  "version": "1.0.0",
+  "homepage": "https://github.com/tsteuwer/es6-javascript-validators",
+  "description": "An ES6 module with various methods and exports for validating variables in JavaScript.",
+  "main": "module.js",
+	"moduleType": [
+		"es6"
+	],
+  "keywords": [
+    "validation",
+		"validator",
+		"es6",
+		"javascript"
+  ],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/username/project.git"
+	},
+	"authors": [
+    "Troy Steuwer <tsteuwer@gmail.com>"
+  ],
+  "license": "BSD-3-Clause",
+	"bugs": {
+		"url": "https://github.com/tsteuwer/es6-javascript-validators/issues"
+	}
+}
