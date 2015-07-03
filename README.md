@@ -16,7 +16,7 @@ I see it all the time -- and in tons of places too. Or, my favorite:
 	}
 ```
 
-Well, lets collectively stop that. Lets use simple functions to do that for us! [es6-javascript-validators](https://github.com/tsteuwer/es6-javascript-validators) is a collection of functions which will do all of this for you and keep your code consistent and clean.
+How much smaller would our JavaScript files be if we didn't do this all the time? Well, lets collectively stop that. Lets use simple functions to do that for us! [es6-javascript-validators](https://github.com/tsteuwer/es6-javascript-validators) is a collection of functions which will do all of this for you and keep your code consistent and clean.
 
 ## Available Methods ##
 - isNullOrUndefined: Is it null or undefined?
