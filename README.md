@@ -18,6 +18,11 @@ I see it all the time -- and in tons of places too. Or, my favorite:
 
 How much smaller would our JavaScript files be if we didn't do this all the time? Well, lets collectively stop that. Lets use simple functions to do that for us! [es6-javascript-validators](https://github.com/tsteuwer/es6-javascript-validators) is a collection of functions which will do all of this for you and keep your code consistent and clean.
 
+## Installation ##
+
+- Bower: `bower install es6-javascript-validators`
+- NPM: `npm install --save es6-javascript-validators`
+
 ## Available Methods ##
 - isNullOrUndefined: Is it null or undefined?
 - isStr: Is it a string?
