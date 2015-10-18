@@ -1,20 +1,4 @@
-/**
- * The default export. Its an object with all utilities.
- * @public
- * @type {Object}
- */
-export default {
-	isStr: isStr,
-	isArr: isArr,
-	isNum: isNum,
-	isObj: isObj,
-	isFnc: isFnc,
-	validStr: validStr,
-	validArr: validArr,
-	validNum: validNum,
-	validObj: validObj,
-	isNullOrUndefined: isNullOrUndefined
-};
+/* jshint esnext:true */
 
 /**
  * Checks if the variable is null or undefined
@@ -46,7 +30,7 @@ export function isStr(s) {
  * @return {Boolean}
  */
 export function isArr(a) {
-	return !isNullOrUndefined(a) && a.constructor === Array;
+	return !isNullOrUndefined(a) && Object.prototype.toString.call(a) === '[object Array]';
 }
 
 /**
@@ -57,7 +41,7 @@ export function isArr(a) {
  * @return {Boolean}
  */
 export function isNum(n) {
-	return typeof n === 'number';
+	return typeof n === 'number' && !isNaN(n);
 }
 
 /**

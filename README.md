@@ -23,7 +23,7 @@ How much smaller would our JavaScript files be if we didn't do this all the time
 - Bower: `bower install es6-javascript-validators`
 - NPM: `npm install --save es6-javascript-validators`
 
-## Available Methods ##
+## Available Functions ##
 - isNullOrUndefined: Is it null or undefined?
 - isStr: Is it a string?
 - isArr: Is it an array?
@@ -34,7 +34,6 @@ How much smaller would our JavaScript files be if we didn't do this all the time
 - validArr: Is it an array and not an empty one?
 - validNum: Is it a number and greater than 0?
 - validObj: Is it an object and not an empty one?
-- ...Or, if you want all of them, just export the default object which contains all of the above.
 
 ## Import specific functions ##
 ```js
@@ -55,17 +54,17 @@ How much smaller would our JavaScript files be if we didn't do this all the time
 ## Import all utils ##
 ```js
 
-	import Util from 'your/path/to/module.js';
+	import * from 'your/path/to/module.js';
 
-	console.log(Util.isObj({})); // true
-	console.log(Util.validObj({})); // false
-	console.log(Util.validObj({ a:1, b:2 })); // true
+	console.log(isObj({})); // true
+	console.log(validObj({})); // false
+	console.log(validObj({ a:1, b:2 })); // true
 
-	console.log(Util.isStr('')); // true
-	console.log(Util.validStr('')); // false
+	console.log(isStr('')); // true
+	console.log(validStr('')); // false
 
-	console.log(Util.isArr([])); // true
-	console.log(Util.validArr([1, 2, 3])); // true
+	console.log(isArr([])); // true
+	console.log(validArr([1, 2, 3])); // true
 
 	//.. and so on
 ```
